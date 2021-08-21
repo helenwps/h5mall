@@ -1,0 +1,147 @@
+.btn-next-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.disabled{
+        opacity: 0.5;
+    }
+}
+
+.btn-next {
+    width: 295px;
+    height: 50px;
+    background: #f74747;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.community-form {
+    background-color: white;
+    .c-form-item {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        font-size: 16px;
+        color: #000000;
+
+        &>label {
+            // font-weight: bold;
+            margin-left: 16px;
+            width: 85px;
+            margin-right: 16px;
+        }
+    }
+
+    .c-form-item-value {
+        flex: 1;
+
+        input::-webkit-input-placeholder {
+            color: #999999;
+            background-color: transparent;
+        }
+
+        input {
+            display: block;
+            font-size: 16px;
+            width: 100%;
+            background-color: transparent;
+        }
+
+        .location-tip {
+            color: #999999;
+            line-height: 22px;
+            margin-right: 36px;
+        }
+
+        position: relative;
+
+        .arrow-right {
+            color: #999999;
+            position: absolute;
+            right: 16px;
+            top: 0;
+        }
+    }
+
+    .tip-color {
+        color: #999999;
+    }
+}
+
+.c-divider {
+    background-color: #F7F7F7;
+    height: 8px;
+}
+
+.uploadImg-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.spot-tip {
+    padding: 16px 0;
+
+    .spot-tip-img {
+        width: 40px;
+        height: 40px;
+        margin-left: 16px;
+        margin-right: 8px;
+    }
+
+    display: flex;
+
+    .spot-tip-str {
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000;
+        margin-right: 16px;
+
+    }
+
+    .spot-tip-grey {
+        margin-top: 12px;
+        line-height: 21px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #999999;
+    }
+}
+
+
+.member-content-title {
+    font-size: 18px;
+    background-color: white;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+
+    .arrow-left {
+        position: absolute;
+        left: 16px;
+    }
+}
+
+.member-content {
+    padding-top: 40px;
+    .member-content-title {
+        position: fixed;
+        height: 40px;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+        z-index: 10;
+        transform: translateZ(0);
+        transform: translate3d(0, 0, 0);
+    }
+}
