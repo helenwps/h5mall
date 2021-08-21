@@ -13,8 +13,8 @@ Vue.prototype.url = url;
 Vue.prototype.main = main;
 Vue.prototype.UTIL = utils;
 // 导入组件库
-import * as qdamaUi from '@/components/packages/index.js'
-Vue.use(qdamaUi);
+import * as h5Ui from '@/components/packages/index.js'
+Vue.use(h5Ui);
 Vue.config.productionTip = false;
 new Vue({ 
   router,

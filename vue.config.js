@@ -16,7 +16,7 @@ module.exports = {
 	    hotOnly: false, // 取消热更新
 	    // proxy: { // 使用代理
 	    //   '/api': {
-	    //      target: 'qdama.cn', // 目标代理服务器地址
+	    //      target: '**.cn', // 目标代理服务器地址
 	    //     changeOrigin: true, // 允许跨域
 	    //     pathRewrite:{
 	    //       '^/api': '' // 重写路径，需要设置重写的话，要在后面的调用接口前加上/api来代替target

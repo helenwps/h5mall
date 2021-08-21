@@ -46,7 +46,7 @@
                   "nickname": "",
                   "validationcode": ""
                 },
-                staticLogo:'https://cnhqvztoss02.qdama.cn//electricityManagement/ytmzJteNKNTK3mYTPPzzb3NFQXsAxm4P.png'
+                staticLogo:'https://cnhqvztoss02.cn//electricityManagement/ytmzJteNKNTK3mYTPPzzb3NFQXsAxm4P.png'
             }   
         },
         created(){

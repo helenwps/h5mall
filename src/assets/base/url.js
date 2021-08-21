@@ -3,40 +3,40 @@ let [host, tmg] = ["", ""];
 if (document.domain == 'localhost') {//localhost
   // host = temp.decode('aHR0cHM6Ly9iMmItZGV2LnFkYW1hLmNuL2IyYi8='); //dev 
   tmg = temp.decode('eHBNRmo3T2lxeDVFUUs1ajZK'); //dev
-  host = "https://b2b-k8s01-stage.qdama.cn/b2b/"; //k8s01-stage
+  host = "https://b2b-k8s01-stage.cn/b2b/"; //k8s01-stage
   // host = temp.decode('aHR0cHM6Ly9iMmItbnVjLnFkYW1hLmNuL2IyYi8=');//nuc环境
-  host = "https://b2b-k8s01-stage.qdama.cn/b2b/"; //k8s01-stage
-//   host = "https://b2b-k8s01-stage.qdama.cn/b2b/"; //k8s01-stage
-}else if(document.domain == 'h5-mall-dev.qdama.cn'){ //dev 环境
+  host = "https://b2b-k8s01-stage.cn/b2b/"; //k8s01-stage
+//   host = "https://b2b-k8s01-stage.cn/b2b/"; //k8s01-stage
+}else if(document.domain == 'h5-mall-dev.cn'){ //dev 环境
     host = temp.decode('aHR0cHM6Ly9iMmItZGV2LnFkYW1hLmNuL2IyYi8='); 
     tmg = temp.decode('eHBNRmo3T2lxeDVFUUs1ajZK');
-}else if(document.domain == 'h5-mall-qa-merge.qdama.cn'){ //qa-merge
+}else if(document.domain == 'h5-mall-qa-merge.cn'){ //qa-merge
     host = temp.decode('aHR0cHM6Ly9iMmItcWEtbWVyZ2UucWRhbWEuY24vYjJiLw==');
     tmg = temp.decode('eHBNRmo3T2lxeDVFUUs1ajZK')
-}else if (document.domain == 'h5-mall-k8s-qa.qdama.cn') { //k8s-qa
+}else if (document.domain == 'h5-mall-k8s-qa.cn') { //k8s-qa
      host = temp.decode('aHR0cHM6Ly9iMmItazhzLXFhLnFkYW1hLmNuL2IyYi8=');
      tmg = temp.decode('eHBNRmo3T2lxeDVFUUs1ajZK');
-}else if (document.domain == 'h5-mall.qdama.cn') { //正式环境
+}else if (document.domain == 'h5-mall.cn') { //正式环境
      host = temp.decode('aHR0cHM6Ly9taWRvZmZpY2UucWRhbWEuY24vYjJiLw==');
      tmg = temp.decode('M0pyOFMxSzE4cmNDMXdBZnY4')
-}else if(document.domain == 'h5-mall-k8s01-stage.qdama.cn'){//k8s01-stage
-    index = 'https://h5-mall-k8s01-stage.qdama.cn';
-    host = 'https://b2b-k8s01-stage.qdama.cn/b2b/';
+}else if(document.domain == 'h5-mall-k8s01-stage.cn'){//k8s01-stage
+    index = 'https://h5-mall-k8s01-stage.cn';
+    host = 'https://b2b-k8s01-stage.cn/b2b/';
     tmg = temp.decode('eHBNRmo3T2lxeDVFUUs1ajZK')
-}else if(document.domain == 'h5-mall-k8s02-stage.qdama.cn'){//k8s02-stage
-    index = 'https://h5-mall-k8s02-stage.qdama.cn';
-    host = 'https://b2b-k8s02-stage.qdama.cn/b2b/';
+}else if(document.domain == 'h5-mall-k8s02-stage.cn'){//k8s02-stage
+    index = 'https://h5-mall-k8s02-stage.cn';
+    host = 'https://b2b-k8s02-stage.cn/b2b/';
     tmg = temp.decode('eHBNRmo3T2lxeDVFUUs1ajZK')
-}else if(document.domain == 'h5-mall-k8s01-qa.qdama.cn'){//k8s01-qa
-    index = 'https://h5-mall-k8s01-qa.qdama.cn';
-    host = 'https://b2b-k8s01-qa.qdama.cn/b2b/';
+}else if(document.domain == 'h5-mall-k8s01-qa.cn'){//k8s01-qa
+    index = 'https://h5-mall-k8s01-qa.cn';
+    host = 'https://b2b-k8s01-qa.cn/b2b/';
     tmg = temp.decode('eHBNRmo3T2lxeDVFUUs1ajZK')
-}else if(document.domain == 'h5-mall-k8s02-qa.qdama.cn'){//k8s02-qa
-    index = 'https://h5-mall-k8s02-qa.qdama.cn';
-    host = 'https://b2b-k8s02-qa.qdama.cn/b2b/';
+}else if(document.domain == 'h5-mall-k8s02-qa.cn'){//k8s02-qa
+    index = 'https://h5-mall-k8s02-qa.cn';
+    host = 'https://b2b-k8s02-qa.cn/b2b/';
     tmg = temp.decode('eHBNRmo3T2lxeDVFUUs1ajZK')
-}else if(document.domain == 'h5-mall-gray01.qdama.cn'){//gray01
-    host = 'https://midoffice-gray01.qdama.cn/b2b/';
+}else if(document.domain == 'h5-mall-gray01.cn'){//gray01
+    host = 'https://midoffice-gray01.cn/b2b/';
     tmg = temp.decode('M0pyOFMxSzE4cmNDMXdBZnY4')
 }
 

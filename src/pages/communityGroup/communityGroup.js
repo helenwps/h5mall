@@ -5,8 +5,8 @@ import url from "@/assets/base/url.js"; // 全局url.js
 import main from "@/assets/base/main.js"; // main.js
 import utils from "@/assets/base/utils.js"; // utils.js
 // 导入组件库
-import * as qdamaUi from '@/components/packages/index.js'
-Vue.use(qdamaUi)
+import * as h5Ui from '@/components/packages/index.js'
+Vue.use(h5Ui)
 
 Vue.prototype.url = url;
 Vue.prototype.main = main;

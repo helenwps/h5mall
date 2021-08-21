@@ -72,7 +72,7 @@ export default {
             if (!!res.data.id) {
               this.status = res.data.verifystatus || 'WAITING';
               this.verifystatusdesc = res.data.auditfailreason || '未通过，请修改资料重新提交审核';
-               QRCode.toDataURL("https://olpadmin.qdama.cn/#/appDownload/")
+               QRCode.toDataURL("https://olpadmin.cn/#/appDownload/")
                 .then(url => {
                   console.log(url)
                   this.qrcodeImg = url;
